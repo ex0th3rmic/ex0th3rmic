@@ -52,14 +52,8 @@ I like software that lets agents do real things without asking users to give up 
 ## GitHub activity
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ex0th3rmic&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=ece6e0&amp;text_color=9b928c&amp;icon_color=19c37d">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=ex0th3rmic&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=24292f&amp;text_color=57606a&amp;icon_color=1a7f37" alt="GitHub stats">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ex0th3rmic&amp;hide_border=true&amp;background=00000000&amp;stroke=23272f&amp;ring=ff6a3d&amp;fire=ff6a3d&amp;currStreakNum=ece6e0&amp;sideNums=ece6e0&amp;currStreakLabel=9b928c&amp;sideLabels=9b928c&amp;dates=9b928c">
-    <img height="160" src="https://streak-stats.demolab.com?user=ex0th3rmic&amp;hide_border=true&amp;background=00000000&amp;stroke=d0d7de&amp;ring=bc4c00&amp;fire=bc4c00&amp;currStreakNum=24292f&amp;sideNums=24292f&amp;currStreakLabel=57606a&amp;sideLabels=57606a&amp;dates=57606a" alt="GitHub contribution streak">
-  </picture>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ex0th3rmic&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0d0d11&amp;title_color=ece6e0&amp;text_color=9b928c&amp;icon_color=19c37d" alt="GitHub stats">
+  <img height="160" src="https://streak-stats.demolab.com?user=ex0th3rmic&amp;hide_border=true&amp;background=0d0d11&amp;stroke=23272f&amp;ring=ff6a3d&amp;fire=ff6a3d&amp;currStreakNum=ece6e0&amp;sideNums=ece6e0&amp;currStreakLabel=9b928c&amp;sideLabels=9b928c&amp;dates=9b928c" alt="GitHub contribution streak">
 </div>
 
 ---
