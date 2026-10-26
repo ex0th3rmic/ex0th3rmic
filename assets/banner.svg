@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">exothermic — agent-native systems built on Solana</title>
+  <desc id="desc">A dark banner with ember accents, a glowing green bonding curve, and the words Agent-native systems. Built on Solana.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#34282a" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="gridMask"><rect width="1280" height="400" fill="url(#gridFade)"/></mask>
+    <radialGradient id="emberGlow" cx="0" cy="1" r="1">
+      <stop offset="0" stop-color="#ff6a3d" stop-opacity="0.24"/>
+      <stop offset="0.5" stop-color="#ff6a3d" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ff6a3d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="curveFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#19c37d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#19c37d" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-200%" y="-200%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="chartClip"><rect x="824" y="128" width="352" height="160" rx="4"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="400" rx="18" fill="#07060a"/>
+  <rect width="1280" height="400" rx="18" fill="url(#grid)" mask="url(#gridMask)"/>
+  <rect width="1280" height="400" rx="18" fill="url(#emberGlow)"/>
+  <rect x="0.5" y="0.5" width="1279" height="399" rx="18" fill="none" stroke="#34282a"/>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+    <text x="64" y="60" fill="#ece6e0" font-size="17" font-weight="600" letter-spacing="3">ex<tspan fill="#ff6a3d">0</tspan>therm</text>
+    <circle cx="1054" cy="55" r="4" fill="#19c37d"/>
+    <text x="1066" y="60" fill="#9b928c" font-size="12" letter-spacing="1.4">BUILDING IN PUBLIC</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="157" fill="#ece6e0" font-size="58" font-weight="700" letter-spacing="-2">Agent-native systems.</text>
+    <text x="64" y="222" fill="#ece6e0" font-size="58" font-weight="700" letter-spacing="-2">Built on <tspan fill="#19c37d">Solana.</tspan></text>
+    <text x="66" y="268" fill="#9b928c" font-size="18">MCP infrastructure · transaction tooling · local-first execution</text>
+  </g>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12">
+    <rect x="64" y="315" width="196" height="34" rx="17" fill="#101014" stroke="#34282a"/>
+    <text x="84" y="337" fill="#ffb347" letter-spacing="0.8">IN CRYPTO SINCE 2017</text>
+    <rect x="274" y="315" width="174" height="34" rx="17" fill="#101014" stroke="#34282a"/>
+    <text x="294" y="337" fill="#9b928c" letter-spacing="0.8">NON-CUSTODIAL</text>
+    <rect x="462" y="315" width="100" height="34" rx="17" fill="#101014" stroke="#34282a"/>
+    <text x="483" y="337" fill="#9b928c" letter-spacing="0.8">ΔH &lt; 0</text>
+  </g>
+
+  <rect x="800" y="88" width="400" height="238" rx="12" fill="#0d0d11" stroke="#34282a"/>
+  <g font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11">
+    <text x="824" y="116" fill="#9b928c" letter-spacing="1.2">AGENTS → CHAIN</text>
+    <text x="1176" y="116" fill="#19c37d" text-anchor="end">search / execute</text>
+  </g>
+  <g clip-path="url(#chartClip)">
+    <g stroke="#262128" stroke-width="1">
+      <path d="M824 168H1176M824 208H1176M824 248H1176"/>
+      <path d="M880 128V288M968 128V288M1056 128V288M1144 128V288"/>
+    </g>
+    <path d="M824 278 C890 274 938 266 984 246 C1042 222 1090 180 1176 132 L1176 288 L824 288 Z" fill="url(#curveFill)"/>
+    <path d="M824 278 C890 274 938 266 984 246 C1042 222 1090 180 1176 132" fill="none" stroke="#19c37d" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="1070" cy="199" r="14" fill="#ff6a3d" opacity="0.12">
+      <animate attributeName="r" values="10;20;10" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.24;0.04;0.24" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1070" cy="199" r="5" fill="#ffcf70" stroke="#ff6a3d" stroke-width="2" filter="url(#glow)"/>
+  </g>
+  <g font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#5f5853">
+    <text x="824" y="310">UNSIGNED TX</text>
+    <text x="1176" y="310" text-anchor="end">WALLET SIGNS → EXECUTES</text>
+  </g>
+</svg>
